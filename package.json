@@ -1,5 +1,5 @@
 {
-  "name": "@it-helper/lib-helper",
+  "name": "lib-features",
   "version": "0.0.1-beta.1",
   "description": "开发库用到的公共库包",
   "main": "./dist/index.cjs",
@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lib-tool-kit/repo.git"
+    "url": "git+https://github.com/lib-features/repo.git"
   },
   "exports": {
     ".": {
@@ -43,7 +43,7 @@
   },
   "bugs": {
     "email": "itmanyong@gmail.com",
-    "url": "https://github.com/itmanyong/lib-tool-kit/issues"
+    "url": "https://github.com/itmanyong/lib-features/issues"
   },
   "license": "MIT",
   "devDependencies": {

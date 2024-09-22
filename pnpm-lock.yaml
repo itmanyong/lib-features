@@ -36,7 +36,7 @@ importers:
 
   examples:
     devDependencies:
-      '@it-helper/lib-helper':
+      lib-features:
         specifier: workspace:latest
         version: link:..
 

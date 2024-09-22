@@ -4,6 +4,6 @@
   "main": "index.js",
   "scripts": {},
   "devDependencies": {
-    "@it-helper/lib-helper": "workspace:latest"
+    "lib-features": "workspace:latest"
   }
 }
