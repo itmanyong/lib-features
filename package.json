@@ -1,6 +1,6 @@
 {
   "name": "lib-features",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "开发库用到的公共库包",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
