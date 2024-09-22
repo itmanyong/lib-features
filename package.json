@@ -1,0 +1,64 @@
+{
+  "name": "@it-helper/lib-helper",
+  "version": "0.0.1-beta.1",
+  "description": "开发库用到的公共库包",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lib-tool-kit/repo.git"
+  },
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev":"tsup --watch",
+    "build": "tsup",
+    "play": "tsx src/index.ts",
+    "release": "bumpp --commit --push --tag && pnpm publish"
+  },
+  "keywords": [
+    "lib",
+    "tool",
+    "node",
+    "utils"
+  ],
+  "author": {
+    "name": "itmanyong",
+    "email": "itmanyong@gmail.com",
+    "url": "https://github.com/itmanyong"
+  },
+  "bugs": {
+    "email": "itmanyong@gmail.com",
+    "url": "https://github.com/itmanyong/lib-tool-kit/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.2",
+    "@types/node": "^22.5.5",
+    "bumpp": "^9.5.2",
+    "mkdist": "^1.5.9",
+    "terser": "^5.33.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  },
+  "volta": {
+    "node": "20.16.0"
+  },
+  "dependencies": {
+    "tsx": "^4.19.1"
+  }
+}
